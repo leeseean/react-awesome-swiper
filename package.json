@@ -1,0 +1,23 @@
+{
+  "name": "react-awesome-swiper",
+  "version": "1.0.0",
+  "description": "Swiper4 component for React, support pc and mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zhengchen Qiu",
+  "keywords": [
+    "react",
+    "swiper",
+    "react-awesome-swiper",
+    "react-swiper",
+    "react-id-swiper"
+  ],
+  "license": "ISC",
+  "git repository": "https://github.com/leeseean/react-awesome-swiper.git",
+  "dependencies": {
+    "react": "^16.5.2",
+    "swiper": "^4.4.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "react",
+        ]
+    },
+    "compilerOptions": {
+        "target": "ES6",
+	    "jsx": "react",
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
