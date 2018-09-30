@@ -1,11 +1,11 @@
 # react-awesome-swiper
 Swiper4 component for React, support pc and mobile
 # useage
+config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
 ```javascript
 import React from 'react';
 import AwesomeSwiper from 'react-awasome-swiper';
 
-//config is as the same as Swiper.js, see the document [http://idangero.us/swiper/api/](http://idangero.us/swiper/api/)
 const config = {
   width: 800,
   loop : true,
@@ -13,7 +13,7 @@ const config = {
     delay: 3000,
     stopOnLastSlide: false,
     disableOnInteraction: true,
-   },
+  },
   // Disable preloading of all images
   preloadImages: false,
   // Enable lazy loading
