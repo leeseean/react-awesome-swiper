@@ -3,14 +3,13 @@ import Swiper from 'swiper';
 import './node_modules/swiper/dist/css/swiper.min.css';
 
 class ReactAwesomeSwiper extends React.Component {
-    swiperRef = null
     swiper = null
     componentDidMount() {
-        this.swiper = new Swiper(this.swiperRef, this.props.config);
+        this.swiper = new Swiper('.swiper-container', this.props.config);
     }
     render() {
         return (
-            <div className="swiper-container" ref={ref => this.swiperRef = ref}>
+            <div className="swiper-container">
                 {this.props.children}
             </div>
         );
