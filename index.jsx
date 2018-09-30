@@ -4,8 +4,9 @@ import './node_modules/swiper/dist/css/swiper.min.css';
 
 class ReactAwesomeSwiper extends React.Component {
     swiperRef = null
+    swiper = null
     componentDidMount() {
-        new Swiper(this.swiperRef, this.props.config);
+        this.swiper = new Swiper(this.swiperRef, this.props.config);
     }
     render() {
         return (
