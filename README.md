@@ -49,6 +49,8 @@ class Example extends React.Component {
           <div class="swiper-slide">slider2</div>
           <div class="swiper-slide">slider3</div>
         </div>
+        <div class="swiper-button-prev"></div><!--左箭头-->
+        <div class="swiper-button-next"></div><!--右箭头-->
         <div class="swiper-pagination"></div>
       </AwesomeSwiper>
     )
