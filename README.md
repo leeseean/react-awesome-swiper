@@ -1,5 +1,7 @@
 # react-awesome-swiper
 Swiper4 component for React, support pc and mobile
+# install
+npm install react-awesome-swiper
 # useage
 config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
 ```javascript
