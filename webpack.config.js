@@ -11,7 +11,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
-        library: 'reactSwiper'
+        library: 'reactSwiper',
+        libraryTarget: 'umd'
     },
     module: {
         rules: [{
