@@ -1,6 +1,6 @@
 import React from 'react';
 import Swiper from 'swiper';
-import './node_modules/swiper/dist/css/swiper.min.css';
+import 'swiper/dist/css/swiper.min.css';
 
 class ReactAwesomeSwiper extends React.Component {
     swiper = null

@@ -6,13 +6,13 @@ process.env.NODE_ENV = 'production';
 
 module.exports = {
     entry: {
-        'reactSwiper': './index.jsx',
+        'ReactSwiper': './index.jsx',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
-        library: 'reactSwiper',
-        libraryTarget: 'umd'
+        library: 'ReactSwiper',
+        libraryTarget: 'amd'
     },
     module: {
         rules: [{
@@ -20,9 +20,18 @@ module.exports = {
             loader: 'babel-loader',
         }, {
             test: /\.css$/,
-            loader: 'css-loader',
+            loader: ['style-loader', 'css-loader']
         }]
     },
+    mode: 'production',
+    externals: ['react', 'swiper'],
+    plugins: [
+        new webpack.DefinePlugin({
+            'process.env': {
+                NODE_ENV: JSON.stringify('production')
+            }
+        })
+    ],
     //压缩js
     optimization: {
         minimizer: [

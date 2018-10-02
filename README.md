@@ -1,9 +1,17 @@
 # react-awesome-swiper
-Swiper4 component for React, support pc and mobile
+
+>Swiper4 component for React, support pc and mobile
+
 # install
+
 ```npm install react-awesome-swiper```
+
+# css
+
+>you don`t need to import css file, it is automatically imported when you import the AwesomeSwiper Component
+
 # useage
-config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
+>config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
 ```javascript
 import React from 'react';
 import AwesomeSwiper from 'react-awasome-swiper';
@@ -46,14 +54,14 @@ class Example extends React.Component {
 
     return (
       <AwesomeSwiper ref={this.swiperRef = ref} config={config}>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">slider1</div>
-          <div class="swiper-slide">slider2</div>
-          <div class="swiper-slide">slider3</div>
+        <div className="swiper-wrapper">
+          <div className="swiper-slide">slider1</div>
+          <div className="swiper-slide">slider2</div>
+          <div className="swiper-slide">slider3</div>
         </div>
-        <div class="swiper-button-prev"></div><!--左箭头-->
-        <div class="swiper-button-next"></div><!--右箭头-->
-        <div class="swiper-pagination"></div>
+        <div className="swiper-button-prev"></div><!--左箭头-->
+        <div className="swiper-button-next"></div><!--右箭头-->
+        <div className="swiper-pagination"></div>
       </AwesomeSwiper>
     )
   }
