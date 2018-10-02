@@ -21,7 +21,7 @@
 ```
 
 ### OR
-Use stylesheet file from style/  folder 
+Import stylesheet file from style/  folder 
 
 # useage
 >config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
