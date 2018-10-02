@@ -28,6 +28,7 @@ Import stylesheet file from style/  folder
 ```javascript
 import React from 'react';
 import AwesomeSwiper from 'react-awasome-swiper';
+import 'react-awesome-swiper/style/swiper.min.css'; //css is necessary
 
 const config = {
   width: 800,
@@ -67,14 +68,14 @@ class Example extends React.Component {
 
     return (
       <AwesomeSwiper ref={this.swiperRef = ref} config={config}>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">slider1</div>
-          <div class="swiper-slide">slider2</div>
-          <div class="swiper-slide">slider3</div>
+        <div className="swiper-wrapper">
+          <div className="swiper-slide">slider1</div>
+          <div className="swiper-slide">slider2</div>
+          <div className="swiper-slide">slider3</div>
         </div>
-        <div class="swiper-button-prev"></div><!--左箭头-->
-        <div class="swiper-button-next"></div><!--右箭头-->
-        <div class="swiper-pagination"></div>
+        <div className="swiper-button-prev"></div><!--左箭头-->
+        <div className="swiper-button-next"></div><!--右箭头-->
+        <div className="swiper-pagination"></div>
       </AwesomeSwiper>
     )
   }
