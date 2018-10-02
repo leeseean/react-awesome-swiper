@@ -1,18 +1,19 @@
 const path = require('path');
 const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 process.env.NODE_ENV = 'production';
 
 module.exports = {
     entry: {
-        'reactSwiper': './index.jsx',
+        'ReactSwiper': './index.jsx',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
-        library: 'reactSwiper',
-        libraryTarget: 'umd'
+        library: 'ReactSwiper',
+        libraryTarget: 'amd'
     },
     module: {
         rules: [{
@@ -21,8 +22,23 @@ module.exports = {
         }, {
             test: /\.css$/,
             loader: 'css-loader',
-        }]
+        }],
     },
+    externals: {
+        react: 'React',
+    },
+    mode: 'production',
+    plugins: [
+        new webpack.DefinePlugin({
+            'process.env': {
+                NODE_ENV: JSON.stringify('production')
+            }
+        }),
+        new ExtractTextPlugin({
+            filename: 'swiper.min.css',
+            allChunks: true,
+        }),
+    ],
     //压缩js
     optimization: {
         minimizer: [
