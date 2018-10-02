@@ -10,7 +10,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].production.js',
+        filename: '[name].js',
         library: 'ReactSwiper',
         libraryTarget: 'amd'
     },
@@ -21,6 +21,7 @@ module.exports = {
         }],
     },
     mode: 'production',
+    externals: ['react', 'swiper'],
     plugins: [
         new webpack.DefinePlugin({
             'process.env': {
