@@ -7,9 +7,14 @@ class ReactAwesomeSwiper extends React.Component {
     componentDidMount() {
         this.swiper = new Swiper('.swiper-container', this.props.config);
     }
+    componentDidUpdate() {
+        this.swiper.destroy();
+        this.swiper = new Swiper('.swiper-container', this.props.config);
+    }
     render() {
+        const { config, className, ...rest } = this.props;
         return (
-            <div className="swiper-container">
+            <div className={`swiper-container ${className}`} {...rest}>
                 {this.props.children}
             </div>
         );
