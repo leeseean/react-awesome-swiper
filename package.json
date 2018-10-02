@@ -4,8 +4,7 @@
   "description": "Swiper4 component for React, support pc and mobile",
   "main": "dist/ReactSwiper.js",
   "files": [
-    "dist",
-    "style"
+    "dist"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
