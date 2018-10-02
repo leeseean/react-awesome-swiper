@@ -1,9 +1,30 @@
 # react-awesome-swiper
-Swiper4 component for React, support pc and mobile
+
+>Swiper4 component for React, support pc and mobile
+
 # install
+
 ```npm install react-awesome-swiper```
+
+# Recommendation
+
+>Swiper stylesheet file is required
+
+### Use Swiper stylesheet file from CDN
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css">
+```
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+```
+
+### OR
+Import stylesheet file from style/  folder 
+
 # useage
-config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
+>config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
 ```javascript
 import React from 'react';
 import AwesomeSwiper from 'react-awasome-swiper';
