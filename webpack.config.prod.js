@@ -18,7 +18,10 @@ module.exports = {
         rules: [{
             test: /\.jsx$/,
             loader: 'babel-loader',
-        }],
+        }, {
+            test: /\.css$/,
+            loader: ['style-loader', 'css-loader']
+        }]
     },
     mode: 'production',
     externals: ['react', 'swiper'],

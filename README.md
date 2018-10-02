@@ -6,29 +6,15 @@
 
 ```npm install react-awesome-swiper```
 
-# Recommendation
+# css
 
->Swiper stylesheet file is required
-
-### Use Swiper stylesheet file from CDN
-
-```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css">
-```
-
-```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
-```
-
-### OR
-Import stylesheet file from style/  folder 
+>you don`t need to import css file, it is automatically imported when you import the AwesomeSwiper Component
 
 # useage
 >config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
 ```javascript
 import React from 'react';
 import AwesomeSwiper from 'react-awasome-swiper';
-import 'react-awesome-swiper/style/swiper.min.css'; //css is necessary
 
 const config = {
   width: 800,
