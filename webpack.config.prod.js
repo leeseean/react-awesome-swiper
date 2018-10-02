@@ -20,9 +20,6 @@ module.exports = {
             loader: 'babel-loader',
         }],
     },
-    externals: {
-        react: 'React',
-    },
     mode: 'production',
     plugins: [
         new webpack.DefinePlugin({
