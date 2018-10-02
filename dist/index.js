@@ -1,7 +1,7 @@
 'use strict';
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = require('./dist/ReactSwiper.production.js');
+  module.exports = require('./ReactSwiper.production.js');
 } else {
-  module.exports = require('./dist/ReactSwiper.development.js');
+  module.exports = require('./ReactSwiper.development.js');
 }
