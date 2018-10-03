@@ -12,7 +12,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
         library: 'ReactSwiper',
-        libraryTarget: 'amd'
+        libraryTarget: 'umd'
     },
     module: {
         rules: [{
