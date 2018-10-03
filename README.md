@@ -14,7 +14,7 @@
 >config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
 ```javascript
 import React from 'react';
-import AwesomeSwiper from 'react-awasome-swiper';
+import AwesomeSwiper from 'react-awesome-swiper';
 
 const config = {
   width: 800,
