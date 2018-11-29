@@ -16,7 +16,8 @@
     "swiper",
     "react-awesome-swiper",
     "react-swiper",
-    "react-id-swiper"
+    "react-id-swiper",
+    "iDangerous"
   ],
   "license": "ISC",
   "git repository": "https://github.com/leeseean/react-awesome-swiper.git",
