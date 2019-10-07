@@ -7,11 +7,11 @@
 ```npm install react-awesome-swiper```
 
 # useage
->config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
+>config is as the same as [Swiper.js](http://www.idangero.us/swiper/get-started/)，API document [Swiper](https://swiperjs.com/api/)，[demos](https://swiperjs.com/demos/)
 ```javascript
 import React from 'react';
 import AwesomeSwiper from 'react-awesome-swiper';
-
+//this config is same as idangrous swiper
 const config = {
   width: 800,
   loop : true,
