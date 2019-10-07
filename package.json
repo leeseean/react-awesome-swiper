@@ -1,6 +1,6 @@
 {
     "name": "react-awesome-swiper",
-    "version": "1.4.4",
+    "version": "1.4.5",
     "description": "Swiper4 component for React, support pc and mobile",
     "main": "dist/ReactSwiper.js",
     "files": [
