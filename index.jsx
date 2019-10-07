@@ -3,7 +3,8 @@ import Swiper from 'swiper';
 import 'swiper/dist/css/swiper.min.css';
 
 class ReactAwesomeSwiper extends React.Component {
-    constructor() {
+    constructor(...params) {
+        super(...params);
         this.id = `swiper${new Date().getTime()}`;
         this.swiper = null;
     }
