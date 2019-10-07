@@ -1,11 +1,12 @@
 import React from 'react';
 import Swiper from 'swiper';
+import createHash from './hash.js';
 import 'swiper/dist/css/swiper.min.css';
 
 class ReactAwesomeSwiper extends React.Component {
     constructor(...params) {
         super(...params);
-        this.id = `swiper${new Date().getTime()}`;
+        this.id = `swiper${createHash(16)}`;
         this.swiper = null;
     }
     componentDidMount() {
