@@ -19,10 +19,13 @@
         "react-id-swiper",
         "iDangerous"
     ],
-    "license": "ISC",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/leeseean/react-awesome-swiper.git"
+    },
+    "bugs": {
+        "url": "https://github.com/leeseean/react-awesome-swiper/issues"
     },
     "dependencies": {
         "swiper": "^4.4.1"

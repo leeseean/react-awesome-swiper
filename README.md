@@ -13,7 +13,6 @@ import React from 'react';
 import AwesomeSwiper from 'react-awesome-swiper';
 //this config is same as idangrous swiper
 const config = {
-  width: 800,
   loop : true,
   autoplay: {
     delay: 3000,
@@ -49,7 +48,7 @@ class Example extends React.Component {
   render() {
 
     return (
-      <AwesomeSwiper ref={this.swiperRef = ref} config={config} className="your-classname">
+      <AwesomeSwiper ref={ref => (this.swiperRef = ref)} config={config} className="your-classname">
         <div className="swiper-wrapper">
           <div className="swiper-slide">slider1</div>
           <div className="swiper-slide">slider2</div>
