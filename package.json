@@ -1,47 +1,50 @@
 {
-  "name": "react-awesome-swiper",
-  "version": "1.4.2",
-  "description": "Swiper4 component for React, support pc and mobile",
-  "main": "dist/ReactSwiper.js",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.prod.js"
-  },
-  "author": "Zhengchen Qiu",
-  "keywords": [
-    "react",
-    "swiper",
-    "react-awesome-swiper",
-    "react-swiper",
-    "react-id-swiper",
-    "iDangerous"
-  ],
-  "license": "ISC",
-  "git repository": "https://github.com/leeseean/react-awesome-swiper.git",
-  "dependencies": {
-    "swiper": "^4.4.1"
-  },
-  "peerDependencies": {
-    "react": ">= 16.3.0"
-  },
-  "devDependencies": {
-    "babel-core": "6.26.0",
-    "babel-loader": "7.1.2",
-    "babel-preset-react-app": "^3.1.2",
-    "babel-runtime": "6.26.0",
-    "css-loader": "^1.0.0",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "react": "^16.4.1",
-    "style-loader": "^0.23.0",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
-  }
+    "name": "react-awesome-swiper",
+    "version": "1.4.2",
+    "description": "Swiper4 component for React, support pc and mobile",
+    "main": "dist/ReactSwiper.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --config webpack.config.prod.js"
+    },
+    "author": "Zhengchen Qiu",
+    "keywords": [
+        "react",
+        "swiper",
+        "react-awesome-swiper",
+        "react-swiper",
+        "react-id-swiper",
+        "iDangerous"
+    ],
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leeseean/react-awesome-swiper.git"
+    },
+    "dependencies": {
+        "swiper": "^4.4.1"
+    },
+    "peerDependencies": {
+        "react": ">= 16.3.0"
+    },
+    "devDependencies": {
+        "babel-core": "6.26.0",
+        "babel-loader": "7.1.2",
+        "babel-preset-react-app": "^3.1.2",
+        "babel-runtime": "6.26.0",
+        "css-loader": "^1.0.0",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "react": "^16.4.1",
+        "style-loader": "^0.23.0",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2"
+    },
+    "babel": {
+        "presets": [
+            "react-app"
+        ]
+    }
 }
