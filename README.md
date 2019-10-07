@@ -49,7 +49,7 @@ class Example extends React.Component {
   render() {
 
     return (
-      <AwesomeSwiper ref={this.swiperRef = ref} config={config}>
+      <AwesomeSwiper ref={this.swiperRef = ref} config={config} className="your-classname">
         <div className="swiper-wrapper">
           <div className="swiper-slide">slider1</div>
           <div className="swiper-slide">slider2</div>

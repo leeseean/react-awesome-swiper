@@ -11,6 +11,9 @@ class ReactAwesomeSwiper extends React.Component {
         this.swiper.destroy();
         this.swiper = new Swiper('.swiper-container', this.props.config);
     }
+    componentWillUnmount() {
+        this.swiper.destroy();
+    }
     render() {
         const { config, className, ...rest } = this.props;
         return (
