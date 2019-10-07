@@ -6,10 +6,6 @@
 
 ```npm install react-awesome-swiper```
 
-# css
-
->you don`t need to import css file, it is automatically imported when you import the AwesomeSwiper Component
-
 # useage
 >config is as the same as Swiper.js, see the document [Swiper](http://www.idangero.us/swiper/get-started/) 
 ```javascript
