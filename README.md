@@ -6,7 +6,7 @@
 
 ```npm install react-awesome-swiper```
 
-# useage
+# usage
 >config is as the same as [Swiper.js](http://www.idangero.us/swiper/get-started/)，API document [Swiper](https://swiperjs.com/api/)，[demos](https://swiperjs.com/demos/)
 ```javascript
 import React from 'react';
