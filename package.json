@@ -30,7 +30,8 @@
         "url": "https://github.com/leeseean/react-awesome-swiper/issues"
     },
     "dependencies": {
-        "swiper": "^4.4.1"
+        "swiper": "^5.4.3",
+        "@types/swiper": "^5.3.2"
     },
     "peerDependencies": {
         "react": ">= 16.3.0"
