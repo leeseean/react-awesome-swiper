@@ -228,4 +228,8 @@ declare class ReactSwiper extends React.Component<ReactSwiperProps, ReactSwiperS
     render: () => JSX.Element;
 }
 
-export default ReactSwiper;
+declare module 'react-awesome-swiper' {
+    export default ReactSwiper;
+}
+
+
