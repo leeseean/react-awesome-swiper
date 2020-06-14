@@ -1,6 +1,6 @@
 {
     "name": "react-awesome-swiper",
-    "version": "1.4.11",
+    "version": "1.4.12",
     "description": "iDangerous Swiper4 component for React, support pc and mobile",
     "main": "dist/ReactSwiper.js",
     "types": "types/index.d.ts",
