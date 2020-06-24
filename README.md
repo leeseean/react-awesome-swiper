@@ -1,6 +1,6 @@
 # react-awesome-swiper
 
->Swiper4 component for React, support pc and mobile
+>Swiper4 component for React, support pc and mobile, support typescript
 
 # install
 
