@@ -6,8 +6,16 @@
 
 ```npm install react-awesome-swiper```
 
+# API document
+
+ see [api document](https://swiperjs.com/api/) page
+
+# examples
+
+ see [demos](https://swiperjs.com/demos/) page
+
 # usage
->config is as the same as [Swiper.js](http://www.idangero.us/swiper/get-started/)，API document [Swiper](https://swiperjs.com/api/)，[demos](https://swiperjs.com/demos/)
+>config is as the same as [Swiper.js](http://www.idangero.us/swiper/get-started/)
 ```javascript
 import React from 'react';
 import AwesomeSwiper from 'react-awesome-swiper';
